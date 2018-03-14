@@ -1,54 +1,28 @@
 /* Navbar */
-.banner {
-  padding: 20px;
-  text-align: left;
-  flex-grow: 1;
+.navbar {
+  margin: 0px;
+  border-radius: 0px;
 }
-.nav {
-  flex-grow: 3;
-}
-.nav ul{
-  list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-.nav li {
-  float: right;
-}
-.nav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 20px 16px;
-  text-decoration: none;
-}
-.nav li a:hover:not(.active) {
-  background-color: #111;
-}
-.nav .active {
-  background-color: #4CAF50;
+.navbar h1 {
+  margin: 0px;
 }
 
 /* Banner */
 
 
 /* Flex */
-.flex-row {
+.grid-row {
   display: flex;
+  padding: 30px;
   flex-wrap: wrap;
-}
-.flex-row-space-around {
-  width: 100%;
-  padding: 40px;
-  display: flex;
   justify-content: space-evenly;
 }
-.flex-item {
+.grid-item {
   background-color: aquamarine;
-  padding: 50px;
-  flex-basis: auto;
-  margin: 10px;
+  width: 20%;
+  height: 130px;
+  padding: 10px;
+  margin: 2%;
 }
 
 /* Footer */

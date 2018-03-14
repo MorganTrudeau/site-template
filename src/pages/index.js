@@ -1,9 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Slideshow from '../components/Slideshow'
 
 const IndexPage = () => (
   <div>
-  <div 
+  {/* <div 
     style={{ 
       padding:'40px',
       width:'100%', 
@@ -14,7 +15,8 @@ const IndexPage = () => (
     }}
   >
     <h1>Banner</h1>
-  </div>
+  </div> */}
+  <Slideshow />
   <div
     style={{ 
       padding:'40px',
@@ -39,19 +41,15 @@ Nam ex veniam commune. Graece liberavisse mei eu, ad mei magna alienum, vivendum
   >
     <h1>Services</h1>
   </div>
-  <div className="flex-row" style={{ background:'black' }}>
-        <div className="flex-row-space-around">
-        <div className="flex-item"></div>
-        <div className="flex-item"></div>
-        <div className="flex-item"></div>
-        <div className="flex-item"></div>
-      </div>
-      <div className="flex-row-space-around">
-        <div className="flex-item"></div>
-        <div className="flex-item"></div>
-        <div className="flex-item"></div>
-        <div className="flex-item"></div>
-      </div>
+  <div className="grid-row" style={{ background:'black' }}>
+      <div className="grid-item"></div>
+      <div className="grid-item"></div>
+      <div className="grid-item"></div>
+      <div className="grid-item"></div>
+      <div className="grid-item"></div>
+      <div className="grid-item"></div>
+      <div className="grid-item"></div>
+      <div className="grid-item"></div>
   </div>
   </div>
 )

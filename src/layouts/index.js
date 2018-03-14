@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import Navbar from '../components/Navbar'
+import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
 import './index.css'
 
@@ -15,7 +15,7 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Navbar />
+    <Navigation />
     <div>
       {children()}
     </div>
