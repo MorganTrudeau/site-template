@@ -4,52 +4,59 @@ import Slideshow from '../components/Slideshow'
 
 const IndexPage = () => (
   <div>
-  {/* <div 
+  <Slideshow />
+  <div className="section parallax bg1"
     style={{ 
-      padding:'40px',
-      width:'100%', 
-      height:'400px',
-      background:'black', 
-      textAlign:'center',
-      color:'white'
+      color:'white',
+      textShadow: '0 0 5px #000'
     }}
   >
-    <h1>Banner</h1>
-  </div> */}
-  <Slideshow />
-  <div
+    <h1 style={{ lineHeight:'50vh' }}>Something Impressive</h1>
+  </div>
+  <div className="section"
     style={{ 
-      padding:'40px',
-      width:'100%',
+      padding:'50px',
+      backgroundColor:'white',
       textAlign:'center'
     }}
   >
     <h1>Intro</h1>
     <p>Lorem ipsum dolor sit amet, sit ea vivendum nominati. At simul doctus aliquip qui. Alia viris usu eu. Ne vis intellegat necessitatibus.
-
-Nam ex veniam commune. Graece liberavisse mei eu, ad mei magna alienum, vivendum omittantur ea nec. An hendrerit ullamcorper interpretaris sed. Ex suas animal vis, numquam assueverit mel cu, ne vim quis cetero nostrum.</p>
+        Nam ex veniam commune. Graece liberavisse mei eu, ad mei magna alienum, vivendum omittantur ea nec. An hendrerit ullamcorper interpretaris sed. Ex suas animal vis, numquam assueverit mel cu, ne vim quis cetero nostrum.</p>
   </div>
-  <div
-    style={{ 
-      padding:'40px',
-      paddingBottom:'20px',
-      width:'100%',
+  <div className="grid-row"
+    style={{ gridTemplateRows:'1fr 5fr' }}
+  >
+    <div
+    style={{
       background:'black', 
+      paddingTop:'20px',
       textAlign:'center',
       color:'white'
     }}
   >
     <h1>Services</h1>
   </div>
-  <div className="grid-row" style={{ background:'black' }}>
-      <div className="grid-item"></div>
-      <div className="grid-item"></div>
-      <div className="grid-item"></div>
-      <div className="grid-item"></div>
-      <div className="grid-item"></div>
-      <div className="grid-item"></div>
-      <div className="grid-item"></div>
-      <div className="grid-item"></div>
+  <div className="flex-row" style={{ background:'black' }}>
+    <div className="flex-item"></div>
+    <div className="flex-item"></div>
+    <div className="flex-item"></div>
+    <div className="flex-item"></div>
+    <div className="flex-item"></div>
+    <div className="flex-item"></div>
+    <div className="flex-item"></div>
+    <div className="flex-item"></div>
+  </div>
+  </div>
+  <div className="grid-column" 
+    style={{ 
+      gridTemplateColumns: '1fr 1fr 1fr',
+      height: '400px'
+     }}
+  >
+    <div className="grid-item"></div>
+    <div className="grid-item"></div>
+    <div className="grid-item"></div>
   </div>
   </div>
 )

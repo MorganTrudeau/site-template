@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 import './index.css'
 
 const TemplateWrapper = ({ children }) => (
-  <div>
+  <div className="wrapper"> 
     <Helmet
       title="Gatsby Default Starter"
       meta={[

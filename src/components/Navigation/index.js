@@ -8,7 +8,7 @@ var NavDropdown = require('react-bootstrap/lib/NavDropdown');
 var MenuItem = require('react-bootstrap/lib/MenuItem');
 
 const Navigation = () => (
-  <Navbar inverse collapseOnSelect>
+  <Navbar fluid inverse collapseOnSelect className={{ position:'relative' }}>
     <Navbar.Header>
       <Navbar.Brand>
         <h1>Company</h1>
@@ -17,13 +17,13 @@ const Navigation = () => (
     </Navbar.Header>
     <Navbar.Collapse>
       <Nav pullRight>
-        <NavItem eventKey={1} href="#">
-          Link
+        <NavItem eventKey={1} href="/">
+          Home
         </NavItem>
-        <NavItem eventKey={2} href="#">
-          Link
+        <NavItem eventKey={2} href="/About">
+          About
         </NavItem>
-        <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
+        <NavDropdown eventKey={3} title="Services" id="basic-nav-dropdown">
           <MenuItem eventKey={3.1}>Action</MenuItem>
           <MenuItem eventKey={3.2}>Another action</MenuItem>
           <MenuItem eventKey={3.3}>Something else here</MenuItem>

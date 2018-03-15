@@ -12,14 +12,16 @@ var settings = {
   };
 
 const Slideshow = () => (
+  <div style={{ height:'350px',backgroundColor:'white' }}>
     <Slider {...settings}>
-        <div style={{ textAlign:'center',height:'300px',backgroundColor:'grey' }}><h3>1</h3></div>
-        <div style={{ textAlign:'center',height:'300px',backgroundColor:'grey' }}><h3>2</h3></div>
-        <div style={{ textAlign:'center',height:'300px',backgroundColor:'grey' }}><h3>3</h3></div>
-        <div style={{ textAlign:'center',height:'300px',backgroundColor:'grey' }}><h3>4</h3></div>
-        <div style={{ textAlign:'center',height:'300px',backgroundColor:'grey' }}><h3>5</h3></div>
-        <div style={{ textAlign:'center',height:'300px',backgroundColor:'grey' }}><h3>6</h3></div>
+    <div style={{ textAlign:'center',height:'300px',backgroundColor:'white',display:'flex',flexDirection:'column',justifyContent:'center' }}><h3>Pic 1</h3></div>
+      <div style={{ textAlign:'center',height:'300px',backgroundColor:'white',display:'flex',flexDirection:'column',justifyContent:'center' }}><h3>Pic 2</h3></div>
+      <div style={{ textAlign:'center',height:'300px',backgroundColor:'white',display:'flex',flexDirection:'column',justifyContent:'center' }}><h3>Pic 3</h3></div>
+      <div style={{ textAlign:'center',height:'300px',backgroundColor:'white',display:'flex',flexDirection:'column',justifyContent:'center' }}><h3>Pic 4</h3></div>
+      <div style={{ textAlign:'center',height:'300px',backgroundColor:'white',display:'flex',flexDirection:'column',justifyContent:'center' }}><h3>Pic 5</h3></div>
+      <div style={{ textAlign:'center',height:'300px',backgroundColor:'white',display:'flex',flexDirection:'column',justifyContent:'center' }}><h3>Pic 6</h3></div>
       </Slider>
+  </div>
 )
 
 export default Slideshow
