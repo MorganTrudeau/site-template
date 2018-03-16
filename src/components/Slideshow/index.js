@@ -12,7 +12,7 @@ var settings = {
   };
 
 const Slideshow = () => (
-  <div style={{ height:'350px',backgroundColor:'white' }}>
+  <div style={{ height:'350px',backgroundColor:'white',boxShadow: '0 15px 50px -5px grey' }}>
     <Slider {...settings}>
     <div style={{ textAlign:'center',height:'300px',backgroundColor:'white',display:'flex',flexDirection:'column',justifyContent:'center' }}><h3>Pic 1</h3></div>
       <div style={{ textAlign:'center',height:'300px',backgroundColor:'white',display:'flex',flexDirection:'column',justifyContent:'center' }}><h3>Pic 2</h3></div>

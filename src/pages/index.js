@@ -11,7 +11,7 @@ const IndexPage = () => (
       textShadow: '0 0 5px #000'
     }}
   >
-    <h1 style={{ lineHeight:'50vh' }}>Something Impressive</h1>
+    <h1 style={{ display:'flex',flexDirection:'column',justifyContent:'center',height:'30vw' }}>Something Impressive</h1>
   </div>
   <div className="section"
     style={{ 
